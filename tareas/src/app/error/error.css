@@ -1,0 +1,40 @@
+.error-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #232526, #414345);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.error-card {
+  text-align: center;
+}
+
+.error-card h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.error-card h2 {
+  margin: 10px 0;
+}
+
+.error-card p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #ff4b2b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #d93a1f;
+}
