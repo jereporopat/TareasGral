@@ -1,0 +1,8 @@
+<button (click)="traerUsuario()">Mostrar usuario</button>
+<p>{{this.gitHubServices.usuarioGithub().name}}</p>
+<img [src] = "this.gitHubServices.usuarioGithub().avatar_url" alt="">
+<p>{{this.gitHubServices.usuarioGithub().repos_url}}</p>
+<!-- Mostrar nombre, biografia, algun dato mas -->
+<!-- 5. Crear un componente Card que reciba por INPUT: titulo, subtitulo, imagen, link.
+6. Crear 4 Cards en el componente de bienvenida con datos de prueba distintos. 
+Serán reemplazados en un futuro. Enviar los datos desde un array harcodeado. -->    
